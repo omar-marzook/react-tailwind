@@ -4,7 +4,7 @@ import Button from './components/Button';
 function App() {
     return (
         <div className="h-screen bg-gray-200 flex justify-center items-center">
-            <Button>Main Button</Button>
+            <Button value="Test Button" kind="primary"/>
         </div>
     );
 }
